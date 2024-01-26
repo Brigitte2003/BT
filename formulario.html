@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con JavaScript</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css"/>
+    <img src="ruta-a-la-imagen" alt="texto-alternativo">
+
+
+</head>
+<body>
+    <h1>INGRESAR TUS DATOS </h1>
+
+    <div class="box">
+        <form action="#" method="POST" id="formulario">
+            <br>
+            <label for="nombre">Nombre:</label> <br>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+
+            <label for="apellidos">Apellidos:</label> <br>
+            <input type="text" name="apellidos" id="apellidos" required>
+            <br>
+
+            <label for="edad">Edad:</label> <br>
+            <input type="number" name="edad" id="edad" required>
+            <br>
+
+            <label for="cedula">Cédula:</label> <br>
+            <input type="text" name="cedula" id="cedula" required>
+            <br>
+
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3>Información del usuario</h3>
+        <br>
+        <p id="p_nombre">
+            Nombre: <span></span>
+        </p>
+        <p id="p_apellidos">
+            Apellidos: <span></span>
+        </p>
+        <p id="p_edad">
+            Edad: <span></span>
+        </p>
+        <p id="p_cedula">
+            Cédula: <span></span>
+        </p>
+
+        
+    </div>
+
+    <!-- Agregar la sección para seleccionar la entrada y el precio -->
+    <div class="box dashed" id="entrada-form" style="display: none;">
+        <h3>Bienvenido! Selecciona el electrodomestico que te gustaria adquirair</h3>
+        <br>
+        <label for="entrada">Entrada:</label>
+        <select name="entrada" id="entrada">
+            <option value="">Seleccione el electrodomestico que desea comprar</option>
+            <option value="1">Lavadora ($350)</option>
+            <option value="2">Refrigeradora ($400)</option>
+            <option value="3">Cocina  ($72.99)</option>
+            <option value="4"> Televisor 50 pulgadas ($420)</option>
+            <option value="5">Microondas ($85.00)</option>
+        </select>
+
+        <br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" min="1" value="1">
+
+        <br>
+        <input type="button" value="Confirmar" id="confirmarEntrada">
+    </div>
+
+    <div class="box dashed" id="resumenEntrada" style="display: none;">
+        <h3>Resumen de Compra</h3>
+        <br>
+        <p id="p_entradaSeleccionada">Entrada seleccionada: <span></span></p>
+        <p id="p_cantidadEntrada">Cantidad: <span></span></p>
+        <p id="p_totalCosto">Total: $<span></span></p>
+    </div>
+
+    <script src="formulario.js" type="text/javascript"></script>
+</body>
+</html>

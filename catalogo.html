@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css" type="text/css"/>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .producto {
+            width: 250px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .producto img {
+            width: 100%;
+            max-height: 150px; 
+            object-fit: contain; 
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Catálogo de productos</h1>
+    <div class="productos">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <img src="lavadora.jpg" alt="Lavadora">
+            <h2>Lavadora</h2>
+            <p>Marca: Samsung</p>
+            <p>Modelo: WW80K6410WW</p>
+            <p>Precio: $1,500</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+            <img src="refrigeradora.jpg" alt="Refrigerador">
+            <h2>Refrigerador</h2>
+            <p>Marca: LG</p>
+            <p>Modelo: GR-B503HLPM</p>
+            <p>Precio: $2,000</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="producto">
+            <img src="televisor.jpg" alt="Televisor">
+            <h2>Televisor</h2>
+            <p>Marca: Sony</p>
+            <p>Modelo: X90J</p>
+            <p>Precio: $3,000</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="producto">
+            <img src="cocina.jpg" alt="Cocina">
+            <h2>Cocina</h2>
+            <p>Marca: Whirlpool</p>
+            <p>Modelo: W7000AD</p>
+            <p>Precio: $4,000</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="producto">
+            <img src="licuadora.jpg" alt="Licuadora">
+            <h2>Licuadora</h2>
+            <p>Marca: Oster</p>
+            <p>Modelo: BLST1610</p>
+            <p>Precio: $500</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="producto">
+            <img src="parlantes.jpg" alt="Parlantes">
+            <h2>Parlantes</h2>
+            <p>Marca: JBL</p>
+            <p>Modelo: Flip 5</p>
+            <p>Precio: $700</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 7 -->
+        <div class="producto">
+            <img src="microondas.jpg" alt="Microondas">
+            <h2>Microondas</h2>
+            <p>Marca: Samsung</p>
+            <p>Modelo: MG23F301TCK</p>
+            <p>Precio: $800</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 8 -->
+        <div class="producto">
+            <img src="muebles.jpg" alt="Muebles">
+            <h2>Muebles</h2>
+            <p>Marca: Sodimac</p>
+            <p>Modelo: Juego de sala 5 piezas</p>
+            <p>Precio: $10,000</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 9 -->
+        <div class="producto">
+            <img src="cafetera.jpg" alt="Cafetera">
+            <h2>Cafetera</h2>
+            <p>Marca: Hamilton Beach</p>
+            <p>Modelo: FlexBrew</p>
+            <p>Precio: $100</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 10 -->
+        <div class="producto">
+            <img src="secadora.jpg" alt="Secadora">
+            <h2>Secadora</h2>
+            <p>Marca: Whirlpool</p>
+            <p>Modelo: WED4815EW</p>
+            <p>Precio: $900</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 11 -->
+        <div class="producto">
+            <img src="aspiradora.jpg" alt="Aspiradora">
+            <h2>Aspiradora</h2>
+            <p>Marca: Dyson</p>
+            <p>Modelo: V11 Torque Drive</p>
+            <p>Precio: $600</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 12 -->
+        <div class="producto">
+            <img src="ventilador.jpg" alt="Ventilador">
+            <h2>Ventilador</h2>
+            <p>Marca: Honeywell</p>
+            <p>Modelo: HYF290B</p>
+            <p>Precio: $80</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 13 -->
+        <div class="producto">
+            <img src="robot-cocina.jpg" alt="Robot de cocina">
+            <h2>Robot de cocina</h2>
+            <p>Marca: KitchenAid</p>
+            <p>Modelo: Artisan</p>
+            <p>Precio: $700</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 14 -->
+        <div class="producto">
+            <img src="plancha.jpg" alt="Plancha">
+            <h2>Plancha</h2>
+            <p>Marca: Rowenta</p>
+            <p>Modelo: DW5080</p>
+            <p>Precio: $50</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 15 -->
+        <div class="producto">
+            <img src="smartwatch.jpg" alt="Smartwatch">
+            <h2>Smartwatch</h2>
+            <p>Marca: Apple</p>
+            <p>Modelo: Watch Series 6</p>
+            <p>Precio: $400</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 16 -->
+        <div class="producto">
+            <img src="cafetera-espresso.jpg" alt="Cafetera Espresso">
+            <h2>Cafetera Espresso</h2>
+            <p>Marca: Breville</p>
+            <p>Modelo: Barista Express</p>
+            <p>Precio: $600</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 17 -->
+        <div class="producto">
+            <img src="auriculares.jpg" alt="Auriculares">
+            <h2>Auriculares</h2>
+            <p>Marca: Bose</p>
+            <p>Modelo: QuietComfort 35 II</p>
+            <p>Precio: $300</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 18 -->
+        <div class="producto">
+            <img src="tablet.jpg" alt="Tablet">
+            <h2>Tablet</h2>
+            <p>Marca: Samsung</p>
+            <p>Modelo: Galaxy Tab S7</p>
+            <p>Precio: $700</p>
+            <a href="compra-exitosa.html" class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 19 -->
+        <div class="producto">
+            <img src="teclado-mecanico.jpg" alt="Teclado Mecánico">
+            <h2>Teclado Mecánico</h2>
+            <p>Marca: Corsair</p>
+            <p>Modelo: K95 RGB Platinum XT</p>
+            <p>Precio: $200</p>
+            <a href="compra-exitosa.html"class="comprar-btn">Comprar</a>
+
+
+        </div>
+
+        <!-- Producto 20 -->
+        <div class="producto">
+            <img src="silla-gamer.jpg" alt="Silla Gamer">
+            <h2>Silla Gamer</h2>
+            <p>Marca: DXRacer</p>
+            <p>Modelo: Formula Series</p>
+            <p>Precio: $350</p>
+            <a href="compra-exitosa.html"class="comprar-btn">Comprar</a>
+
+
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Selecciona todos los botones con la clase "comprar-btn"
+            const botonesComprar = document.querySelectorAll('.comprar-btn');
+    
+            // Agrega el evento de clic a cada botón "Comprar"
+            botonesComprar.forEach(botonComprar => {
+                botonComprar.addEventListener('click', async (event) => {
+                    console.log('Clic en el botón Comprar');
+                    event.preventDefault();
+    
+                    // Accede a los elementos específicos del producto relacionado al botón clickeado
+                    const producto = botonComprar.closest('.producto');
+                    const nombre = producto.querySelector('h2').textContent;
+                    const marca = producto.querySelector('p:nth-of-type(1)').textContent.split(': ')[1];
+                    const modelo = producto.querySelector('p:nth-of-type(2)').textContent.split(': ')[1];
+                    const precio = producto.querySelector('p:nth-of-type(3)').textContent.split(': ')[1].replace('$', '');
+    
+                    console.log('Datos extraídos:', { nombre, marca, modelo, precio });
+    
+                    const response = await fetch('http://localhost:3000/comprar', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ nombre, marca, modelo, precio }),
+                    });
+    
+                    if (response.ok) {
+                        const result = await response.json();
+                        console.log('Respuesta del servidor:', result);
+                        alert(`Compra exitosa. ID de compra: ${result.id}`);
+                    } else {
+                        alert('Error al procesar la compra');
+                        console.error('Error en la solicitud al servidor');
+                    }
+                });
+            });
+        });
+    </script>
+    
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    // ... (código JS anterior) ...
+
+    // Selecciona el botón para mostrar registros
+    const mostrarRegistrosBtn = document.getElementById('mostrarRegistrosBtn');
+
+    if (mostrarRegistrosBtn) {
+        // Agrega el evento de clic al botón "Mostrar Registros de la Base de Datos"
+        mostrarRegistrosBtn.addEventListener('click', async () => {
+            try {
+                const response = await fetch('http://localhost:3000/productos-comprados');
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log('Registros de la base de datos:', result);
+
+                    // Puedes mostrar los registros de alguna manera, por ejemplo, en la consola
+                    alert('Registros de la base de datos mostrados en la consola. Verifica la consola para más detalles.');
+                } else {
+                    console.error('Error al obtener los registros de la base de datos');
+                }
+            } catch (error) {
+                console.error('Error en la solicitud al servidor', error);
+            }
+        });
+    } else {
+        console.error('No se encontró el botón para mostrar registros de la base de datos.');
+    }
+});
+
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de productos</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css"/>
+    <style>
+        /* ... (estilos anteriores) ... */
+
+        /* Estilos para el contenedor principal */
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        /* Estilos para cada cuadro (columna) */
+        .contacto, .preguntas-frecuentes {
+            background-color: #007BFF;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; /* Ocupar el 50% del espacio disponible */
+            margin-right: 10px; /* Espacio entre las columnas */
+        }
+
+        /* Estilos específicos para la sección de contacto y preguntas frecuentes */
+        .contacto h2, .preguntas-frecuentes h2 {
+            border-bottom: 2px solid #FFFFFF;
+            padding-bottom: 10px;
+        }
+
+        /* Estilos para los enlaces */
+        .contacto a, .preguntas-frecuentes a {
+            color: #FFFFFF;
+            text-decoration: underline;
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button id="mostrarRegistrosBtn">Mostrar Registros de la Base de Datos</button>
+
+    <!-- Sección de contacto y preguntas frecuentes -->
+    <div class="info-container">
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <p>PILLUTO</p>
+            <p>Dirección: <br> Santo Domingo, Av 29 de Mayo</p>
+            <p>Teléfono: <a href="tel:+593991709900">+593 9917 09900</a></p>
+            <p>Email: <a href="mailto:Pilluto_@gmail.com">Pilluto_@gmail.com</a></p>
+        </div>
+
+        <div class="preguntas-frecuentes">
+            <h2>Preguntas Frecuentes</h2>
+            <p><strong>¿Cómo puedo realizar una devolución?</strong><br> Puede realizar una devolución contactándonos directamente o visitando nuestra Empresa.</p>
+            <p><strong>¿Cuáles son los métodos de pago aceptados?</strong><br> Aceptamos tarjetas de crédito, transferencias bancarias y PayPal.</p>
+            <!-- Agrega más preguntas frecuentes según sea necesario -->
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,96 @@
+body
+ {
+  font-family: Arial, sans-serif;
+  background-image: url("fondo.avif");    margin: 100;
+  padding: 100;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(11, 3, 71, 231, 240 );
+}
+
+.box {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #010d11de;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgb(56, 62, 78);
+}
+
+.box label {
+  font-size: 16px;
+  color: #5d80b1;
+}
+
+.box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #1545ca;
+  border-radius: 5px;
+}
+
+.box input[type="submit"] {
+  background-color: #12a1da;
+  color: rgb(15, 200, 224);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #010501;
+}
+
+.box.dashed {
+  border: 1px dashed #090f02;
+}
+
+.box.dashed h3 {
+  margin-top: 0;
+  text-align: center;
+  color: #044753;
+}
+
+.box.dashed p {
+  font-size: 16px;
+  color: #0ecfe9;
+}
+
+.box.dashed span {
+  font-weight: bold;
+}
+
+.box.dashed .bebida-select {
+  margin-top: 10px;
+}
+
+.box.dashed .bebida-select label {
+  display: block;
+  font-size: 16px;
+  color: #0414fc;
+  margin-bottom: 5px;
+}
+
+.box.dashed .bebida-select select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #054e4b;
+  border-radius: 5px;
+}
+
+.box.dashed .bebida-select input[type="submit"] {
+  background-color: #065040;
+}
+
+.box.dashed .bebida-select input[type="submit"]:hover {
+  background-color: #0a4255;
+}
+

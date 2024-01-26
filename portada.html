@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #background-image {
+            width: 100%;
+            height: 100vh; /* 100% del viewport height */
+            object-fit: cover;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        #catalog-link {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <img id="background-image" src="electrodomesticos.jpg" alt="Electrodomésticos">
+
+    <div id="overlay">
+        <h1>PILLUTO</h1>
+        <p>Accede a nuestro catálogo</p>
+        <a id="catalog-link" href="catalogo.html">Ir al Catálogo</a>
+    </div>
+</body>
+</html>
+
